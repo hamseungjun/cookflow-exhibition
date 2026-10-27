@@ -50,3 +50,10 @@
   .phone-back { top: 7%; }
   .phone-front { top: 9%; }
 }
+@media (min-width: 901px) {
+  .film .wrap { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 0 44px; align-items: center; }
+  .film-head { display: block; grid-column: 1; grid-row: 1 / 3; margin: 0; }
+  .film-head > p { margin-top: 24px; }
+  .film .video-frame { grid-column: 2; grid-row: 1; }
+  .film .film-footer { grid-column: 2; grid-row: 2; margin-top: 14px; }
+}
